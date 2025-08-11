@@ -20,7 +20,7 @@ const callsToAction = [
   { name: "Contact sales", href: "#", icon: FiPhone },
 ];
 
-export default function Navigation() {
+export function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const pathname = usePathname();
 

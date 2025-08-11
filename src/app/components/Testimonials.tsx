@@ -4,7 +4,7 @@ import { FaCuttlefish } from "react-icons/fa";
 import { SiCodeblocks } from "react-icons/si";
 import { TbUfo } from "react-icons/tb";
 
-export default function Testimonials() {
+export function Testimonials() {
   return (
     <div className="flex flex-col gap-10 items-center px-6 sm:px-10 lg:px-14 py-16 sm:py-20 lg:py-24 bg-neutral-900 w-full">
       

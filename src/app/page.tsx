@@ -4,8 +4,8 @@ import { Services } from "./components/Services";
 import { Offer } from "./components/Offer";
 import { Contact } from "./components/Contact";
 import { Hero } from "./components/Hero";
-import Testimonials from "./components/Testimonials";
-import Navigation from "./components/Navigation";
+import {Testimonials} from "./components/Testimonials";
+import {Navigation} from "./components/Navigation";
 
 export default function Home() {
   return (
